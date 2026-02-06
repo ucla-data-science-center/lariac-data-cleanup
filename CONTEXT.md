@@ -30,6 +30,8 @@ Datasets represent coherent access units (e.g., "LARIAC 7 Orthogonal Imagery") b
 ## Storage Principles
 *   **Zero tolerance for personal Drive links** (e.g., `My Drive`).
 *   **Single Authorized Shared Drive**: All Dataverse links must point to a specific, managed Shared Drive (e.g., `geospatial/LARIAC/`).
+*   **S3 Decommissioning**: The legacy LARIAC S3 bucket (originally intended for direct ingestion) must be emptied and decommissioned.
+*   **Cruft Removal**: Existing "placeholder" text files in LARIAC datasets should be removed to clean up the interface.
 *   **Cleanup**: Anything not referenced in Dataverse is considered legacy/candidate for deletion.
 
 ## Role of the StoryMap

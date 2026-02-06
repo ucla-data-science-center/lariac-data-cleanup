@@ -9,12 +9,14 @@ This document defines the "Definition of Done" for the LARIAC cleanup project.
 ## 2. Dataverse Configuration (The "Gate")
 *   Every LARIAC release (4, 5, 6, 7) has a corresponding Dataset in Dataverse.
 *   **No large files** are uploaded to Dataverse.
+*   **No cruft**: All unnecessary placeholder text files are removed from the datasets.
 *   Each Dataset contains an **External Data Access** link (using the "Link to External Data" feature or a clear URL in the metadata).
 *   All links point **exclusively** to the `geospatial` Shared Drive.
 
-## 3. Google Drive Configuration (The "Vault")
+## 3. Google Drive & S3 Configuration (The "Vault")
 *   **Zero** public access links point to `Tim's My Drive`.
 *   **Zero** public access links point to the legacy `lariac` Shared Drive.
+*   **S3 Bucket Decommissioned**: The LARIAC S3 bucket is emptied and deleted.
 *   The `geospatial` drive is organized by release and product type (e.g., `LARIAC7/Imagery/Orthos`).
 *   Permissions are managed at the Shared Drive level, not on individual folders.
 
